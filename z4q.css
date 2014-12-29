@@ -1,0 +1,41 @@
+body {
+  background-color: rgb(181, 184, 189);
+}
+.circles {
+  width: 14%;
+}
+#batman {
+  width: 21%;
+  padding-left: 14px;
+}
+#container {
+  position: relative;
+  transform: translateY(100%);
+  /*text-align: center;*/
+}
+#symbols {
+  width: 85%;
+  margin: 0 auto;
+}
+.ic {
+  display: none;
+}
+
+.btn {
+  display: block;
+  margin: 5% auto 0;
+  -webkit-border-radius: 11;
+  -moz-border-radius: 11;
+  border-radius: 11px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  background: #3875CE;
+  padding: 20px 30px 20px 30px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #4EA94D;
+  text-decoration: none;
+}
