@@ -2,15 +2,19 @@ $(document).ready(function(){
 
 
 
-  var audioElement = document.createElement('audio');
-  audioElement.setAttribute('src', 'z4q-cl.mp3');
+  //var audioElement = document.createElement('audio');
+  //audioElement.setAttribute('src', 'z4q-cl.mp3');
 
+  //audioElement.load()
+  /*$.get();
+  audioElement.addEventListener("load", function() {
+    audioElement.play();
+  }, true);*/
 
-
-
+  var audio = new Audio('z4q-cl.mp3');
 
   $('.btn').click(function() {
-    audioElement.play();
+    audio.play();
     $("#1").delay(600).fadeIn();
     $("#2").delay(2300).fadeIn();
     $("#3").delay(4000).fadeIn();

@@ -10,6 +10,9 @@ body {
 }
 #container {
   position: relative;
+  -webkit-transform: translateY(100%);
+  -moz-transform: translateY(100%);
+  -ms-transform: translateY(100%);
   transform: translateY(100%);
   /*text-align: center;*/
 }
