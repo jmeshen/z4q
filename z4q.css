@@ -14,7 +14,6 @@ body {
   -moz-transform: translateY(100%);
   -ms-transform: translateY(100%);
   transform: translateY(100%);
-  /*text-align: center;*/
 }
 #symbols {
   width: 85%;
@@ -41,4 +40,21 @@ body {
 .btn:hover {
   background: #4EA94D;
   text-decoration: none;
+}
+
+/*Media Queries*/
+
+@media screen and (max-width: 800px) {
+  .circles {
+    width: 30%;
+  }
+  #batman {
+    width: 85%;
+  }
+  #container {
+    -webkit-transform: translateY(5%);
+    -moz-transform: translateY(5%);
+    -ms-transform: translateY(5%);
+    transform: translateY(5%);
+  }
 }
